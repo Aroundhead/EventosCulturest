@@ -1,4 +1,4 @@
-# Ruby-EventosCulturest
+EventosCulturest
 
 Instrucciones de uso:
 
