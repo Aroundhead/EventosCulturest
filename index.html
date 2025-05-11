@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Eventos Culturest</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="Escudo_Unison.png" alt="Escudo UNISON" class="logo">
+  <h1>EVENTOS CULTUREST</h1>
+  <h2>REGISTRO AL EVENTO</h2>
+
+  <div class="form">
+    <label for="expediente">Número de expediente:</label>
+    <input type="text" id="expediente">
+    <button onclick="registrarAsistente()">Registrar</button>
+  </div>
+
+  <div class="export">
+    <button onclick="exportar('txt')">Exportar a TXT</button>
+    <button onclick="exportar('csv')">Exportar a CSV</button>
+    <button onclick="exportar('json')">Exportar a JSON</button>
+    <button onclick="exportar('sql')">Exportar a SQL</button>
+    <button onclick="exportar('xml')">Exportar a XML</button>
+  </div>
+
+  <h3>Asistentes registrados:</h3>
+  <ul id="lista-asistentes"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
